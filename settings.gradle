@@ -1,8 +1,5 @@
-rootProject.name = "spring-batch-root"
+rootProject.name = "spring-batch-rootgk"
 
 include 'plugin'
-
-include 'examples/simple-schedule'
-include 'examples/spring-batch-test'
 
 findProject(':plugin').name = 'spring-batch'

@@ -1,0 +1,20 @@
+<plugin name='spring-batch' version='2.5.4' grailsVersion='2.5 &gt; *'>
+  <author>John Engelman</author>
+  <authorEmail>john.r.engelman@gmail.com</authorEmail>
+  <title>Grails Spring Batch Plugin</title>
+  <description>Adds the Spring Batch framework to application. Allows for job configuration using Spring Bean DSL. See documentation at https://github.com/johnrengelman/grails-spring-batch for details.</description>
+  <documentation>https://github.com/johnrengelman/grails-spring-batch</documentation>
+  <type>SpringBatchGrailsPlugin</type>
+  <resources>
+    <resource>GrailsSpringBatchCodeNarcRules</resource>
+    <resource>grails.plugins.springbatch.ui.SimpleScheduleController</resource>
+    <resource>grails.plugins.springbatch.ui.SpringBatchJobController</resource>
+    <resource>grails.plugins.springbatch.ui.SpringBatchJobExecutionController</resource>
+    <resource>grails.plugins.springbatch.ui.SpringBatchJobInstanceController</resource>
+    <resource>grails.plugins.springbatch.ui.SpringBatchStepExecutionController</resource>
+    <resource>grails.plugins.springbatch.SimpleScheduleService</resource>
+    <resource>grails.plugins.springbatch.SpringBatchService</resource>
+    <resource>grails.plugins.springbatch.ui.SpringBatchUiService</resource>
+    <resource>grails.plugins.springbatch.ui.DurationTagLib</resource>
+  </resources>
+</plugin>
